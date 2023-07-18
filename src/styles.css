@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800&display=swap');
+
+html {
+    background-color: #eaecee;
+    font-family: 'Source Sans 3', sans-serif;
+}

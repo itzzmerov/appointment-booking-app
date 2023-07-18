@@ -1,0 +1,58 @@
+.header {
+    margin: 2rem 0;
+}
+
+.left {
+    width: 45%;
+    height: 100px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.left .logo {
+    width: 63.574px;
+    height: 60px;
+}
+
+.right {
+    height: 100px;
+    
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right .logo-name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #191444;
+    margin: 15px 10px;
+
+}
+
+.right .branch {
+    font-weight: 400;
+    font-size: 24px;
+    color: #191444;
+    margin: 15px 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0 2rem 0;
+}
+
+.footer-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #A3A1B5;
+    margin: 10px 0;
+}

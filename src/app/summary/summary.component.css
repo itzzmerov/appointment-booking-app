@@ -1,0 +1,169 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    padding: 2rem;
+    border-radius: 25px;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: white;
+}
+
+/********** BACK ICON CONTAINER **************/
+
+.back-icon a {
+    text-decoration: none;
+    color: #191444;
+    display: flex;
+}
+
+.back-icon a:hover {
+    text-decoration: none;
+    color: #FE7401;
+}
+
+.back-icon a:hover img {
+    filter: invert(66%) sepia(77%) saturate(5000%) hue-rotate(359deg) brightness(101%) contrast(106%);
+}
+
+/********** CONTENT TITLE CONTAINER **************/
+
+.content-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title .main-title {
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content-title .description-title {
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/********** SELECTED SERVICE CONTAINER **************/
+
+.selected-service {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.selected-service .title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #bcbcbd;
+    margin: 10px 0;
+}
+
+.selected-service .service {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+/********** SELECTED DATE CONTAINER **************/
+
+.selected-date {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.selected-date .title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #bcbcbd;
+    margin: 10px 0;
+}
+
+.selected-date .service {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.dashed {
+    border: none;
+    height: 3px;
+    background: #000;
+    background: repeating-linear-gradient(90deg,#c2c2c2,#dbdbdb 24px,transparent 24px,transparent 48px);
+    margin: 2rem 0;
+}
+
+.caption {
+    font-size: 16px;
+    font-weight: 700;
+    color: #bcbcbd;
+    margin: 10px 0;
+}
+
+/********** PERSONAL DETAILS CONTAINER **************/
+
+.container-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #74728F;
+}
+
+.container-value {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #191444;
+}
+
+/********** AGREEMENT CONTAINER **************/
+
+.agree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.agree .agreement {
+    font-size: 16px;
+    font-weight: 400;
+    color: #74728F;
+}
+
+.agree .agreement span {
+    color: #FE7401;
+    cursor: pointer;
+}
+
+/********** PROCEED BUTTON CONTAINER **************/
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.proceed-btn {
+    width: 97.5%;
+    height: 4rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #FE7401;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.proceed-btn:hover {
+    background-color: #e66e0c;
+}

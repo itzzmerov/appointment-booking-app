@@ -1,0 +1,236 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    padding: 2rem;
+    border-radius: 25px;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: white;
+}
+
+/********** BACK ICON CONTAINER **************/
+
+.back-icon a {
+    text-decoration: none;
+    color: #191444;
+    display: flex;
+}
+
+.back-icon a:hover {
+    text-decoration: none;
+    color: #FE7401;
+}
+
+.back-icon a:hover img {
+    filter: invert(66%) sepia(77%) saturate(5000%) hue-rotate(359deg) brightness(101%) contrast(106%);
+}
+
+/********** CONTENT TITLE CONTAINER **************/
+
+.content-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title .main-title {
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content-title .description-title {
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/********** SELECT DATE CONTAINER **************/
+
+.select-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-date .title {
+    color: #bcbcbd;
+}
+
+.select-date .calendar-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #FE7401;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+}
+
+.select-date .calendar-button:hover {
+    color: #191444;
+}
+
+/********** DAYS CONTAINER **************/
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel {
+    width: 75%;
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.days-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 0 100%;
+    padding: 10px;
+}
+
+.date {
+    background-color: transparent;
+    border: 1px solid #999898;
+    border-radius: 8px;
+    width: 10rem;
+    height: 10rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 1rem;
+}
+
+.date:hover {
+    background-color: #191444;
+    color: white;
+}
+
+.date[disabled] {
+    pointer-events: none; /* Disable pointer events on disabled buttons */
+    opacity: 0.5; /* Reduce the opacity of disabled buttons */
+}
+
+.date[disabled]:hover {
+  /* Override hover styles for disabled buttons */
+  background-color: inherit;
+  color: inherit;
+  cursor: default;
+}
+
+.date h1 {
+    margin: 0;
+}
+
+.date h3 {
+    margin: 10px 0;
+}
+
+.date h4 {
+    margin: 10px 0;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.nav-button.left {
+    left: 10px;
+}
+  
+.nav-button.right {
+    right: 10px;
+}
+
+.date.active {
+    background-color: #191444;
+    color: white;
+}
+
+/********** SELECT TIMESLOT CONTAINER **************/
+
+.select-timeslot .title {
+    margin-top: 3rem;
+    color: #bcbcbd;
+}
+
+/********** TIMESLOT CONTAINER **************/
+
+.slots {
+    display: flex;
+}
+
+.time {
+    background-color: transparent;
+    border: 1px solid #999898;
+    border-radius: 8px;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time:hover {
+    background-color: #c2c2c2;
+    color: white;
+}
+
+.time.active {
+    background-color: #191444;
+    color: white;
+  }
+/********** PROCEED BUTTON CONTAINER **************/
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.submit-button .proceed-btn {
+    width: 97.5%;
+    height: 4rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #FE7401;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.submit-button .proceed-btn:hover {
+    background-color: #e66e0c;
+}
+
+.submit-button .proceed-btn[disabled] {
+    background-color: #F3F6FC;
+    color: #A3A1B5;
+  }
+  
+  .submit-button .proceed-btn[disabled]:hover {
+    background-color: #F3F6FC;
+    color: #A3A1B5;
+    cursor: not-allowed;
+  }

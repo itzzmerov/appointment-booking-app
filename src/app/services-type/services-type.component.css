@@ -1,0 +1,78 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    padding: 2rem;
+    border-radius: 25px;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: white;
+}
+
+.container .title .title-main {
+    color: #191444;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.container .title .title-description {
+    color: #191444;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.appointment-container {
+    margin: 20px 0px;
+}
+
+.appointment-button {
+    background-color: #F9FBFD;
+    border: 1px solid #e7e7eb;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.appointment-button:hover {
+    box-shadow: 2px 8px 15px #b4b4b4;
+}
+
+.appointment-button .button-text {
+    float: left;
+}
+
+.appointment-button .button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.appointment-button:hover .button-icon {
+    filter: invert(66%) sepia(77%) saturate(5000%) hue-rotate(359deg) brightness(101%) contrast(106%);
+}
+
+.appointment-button .appointment-title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: #191444;
+    margin: 10px 0;
+}
+
+.appointment-button:hover .appointment-title {
+    color: #FE7401;
+}
+
+.appointment-button .appointment-description {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #191444;
+    margin: 10px 0;
+}
